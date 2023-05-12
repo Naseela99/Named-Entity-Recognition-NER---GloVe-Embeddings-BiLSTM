@@ -1,0 +1,6 @@
+dev1.out filter=lfs diff=lfs merge=lfs -text
+dev2.out filter=lfs diff=lfs merge=lfs -text
+test1.out filter=lfs diff=lfs merge=lfs -text
+test2.out filter=lfs diff=lfs merge=lfs -text
+glove.6B.100d.gz filter=lfs diff=lfs merge=lfs -text
+data.zip filter=lfs diff=lfs merge=lfs -text

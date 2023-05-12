@@ -1,0 +1,25 @@
+Directions to run the python script
+To run the python script,run the following command in the terminal:
+
+> python3 hw4.py
+
+As requested by the instructions, the comamnd will reproduce the dev1.out and dev2.out ﬁles.
+
+The ﬁles will be located in the following directories:
+
+1. The train, test and dev ﬁles will be located in the data folder as was provided by the hw.
+2. The glove embeddings will be located in the working directory as glove.6B.100d.gz
+
+The following are the dependencies required for the py ﬁle,
+
+- pandas
+- torch
+- from torch import nn
+- numpy
+- from torch.utils.data import DataLoader,Dataset
+- from sklearn.utils.class_weight import compute_class_weight
+- from torch.optim.lr_scheduler import CosineAnnealingLR, ReduceLROnPlateau
+- from tqdm import tqdm
+- from sklearn.metrics import classiﬁcation_report
+- import gzip
+
